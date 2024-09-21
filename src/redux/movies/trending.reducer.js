@@ -1,3 +1,5 @@
+import { moviesActionTypes } from './movies.types';
+
 /**
  * This file contains the reducer for managing a state. This case being, trending movies in the application.
  * It handles tasks such as: fetching, success, failure, and loading of trending movies.
@@ -5,7 +7,6 @@
  */
 
 
-import { moviesActionTypes } from './movies.types';
 
 /**
  * Initial state of trending movies.
